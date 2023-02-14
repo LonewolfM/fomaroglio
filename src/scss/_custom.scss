@@ -1,0 +1,24 @@
+
+// Re escribe variables
+$primario: #274480;
+$secundario: #95C7EC;
+$terciario:#f8d32e;
+$oscuro: #02A852;
+$gris: #b5b5b5;
+
+//Asignar paleta de colores
+$secondary:$secundario;
+$primary:$primario;
+$dark:$terciario;
+$success:$oscuro;
+
+// Tipografía
+$display-font-weight: 900;
+$headings-font-weight: 700;
+
+//Cards
+$card-border-color: transparent;
+
+
+//Importar bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

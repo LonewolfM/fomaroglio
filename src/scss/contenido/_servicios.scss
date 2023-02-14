@@ -1,0 +1,35 @@
+.servicios{
+
+    .card{
+
+        &:hover{
+
+            cursor:pointer;
+        }
+
+        // img {
+
+        //     border-radius: 100rem;
+        // }
+
+        .card-img-top {
+            width: 100%;
+            height: 200px;
+            object-fit: scale-down;
+          }
+
+
+    }
+
+    .galeria{
+
+        margin-bottom: 2rem;
+    }
+
+    .galeria li:last-of-type{
+
+        margin-bottom: 0;
+    }
+
+
+}
